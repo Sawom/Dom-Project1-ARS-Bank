@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- navbar and image -->
+    <header class="bg" >
+        <!-- navbar -->
+        <br>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home Page</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#logIn">Log in</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <br> 
+        <h1 class="text1 dark">Welcome to ARS Online Bank</h1>
+        <br>
+        <!-- image -->
+        <div >
+            <img class="image4" src="images/bank4.jpg" alt="online banking">
+        </div>
+    </header>
+    <!-- list item -->
+    <br><br> <br><br>
+    <section class="bg1">
+        <br>
+        <h1 class="text1"><u>Our Special Features</u></h1> <br>
+        <ul class="list-group container txtSize">
+            <li class="list-group-item"> <b>Provides access to financial as well as non-financial banking services.</b> </li>
+            <li class="list-group-item"> <b>Facility to  check bank balance any time.</b> </li>
+            <li class="list-group-item"> <b>Make bill payments and fund transfer to other accounts.</b> </li>
+            <li class="list-group-item"> <b>Keep a check on mortgages, loans, savings a/c linked to the bank account.</b> </li>
+            <li class="list-group-item"> <b>Safe and secure mode of banking.</b> </li>
+            <li class="list-group-item"> <b>Protected with unique ID and password.</b> </li>
+            <li class="list-group-item"> <b>Customers can apply for the issuance of a chequebook.</b> </li>
+            <li class="list-group-item"> <b>Buy general insurance.</b> </li>
+            <li class="list-group-item"> <b>Set-up or cancel automatic recurring payments and standing orders.</b> </li>
+            <li class="list-group-item"> <b>Keep a check on investments linked to the bank account</b> </li>
+        </ul>
+        <br> 
+        <br>
+    </section>
+    <!-- login form -->
+    <br><br>
+    <section id="logIn" class="container formBg m-top-bottom d-flex justify-content-center align-items-center p-4">  
+        <div> 
+            <br><br>
+            <h1 class="dark">Login Here</h1> 
+            <br>
+            <div class="formBg1">
+            <!-- email input -->
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"> <b>Email address</b> </label>
+                <input type="email" placeholder="Enter your email address" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <!-- password input -->
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"> <b>Password</b> </label>
+                <input type="password" placeholder="Enter your password" class="form-control" id="password">
+            </div>
+            <button id="subButton" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        <br>
+        </div>
+    </section>
+    <br> <br>
+    <!-- footer section  -->
+    <footer class="d-flex dark bg justify-content-center align-items-center p-3">
+      <div>
+          <h1 class="clr"> ARS Online Bank </h1> <br>
+          <h4> Your money is safe here </h4>
+            <br>
+          <p class="clr"> <big> Developed By </big>  &copy; <b> Abdur Rashid Sawom</b></p> 
+      </div> 
+      <br> <br>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

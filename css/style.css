@@ -1,0 +1,38 @@
+.bg{
+    background-color: #264653;
+}
+.bg1{
+    background-color: whitesmoke;
+}
+.dark{
+    color: whitesmoke;
+}
+.text1{
+    text-align: center;
+}
+.txtSize{
+    font-size: 17px;
+}
+.image4{
+    width: 100%;
+}
+.formBg{
+    background: linear-gradient(to top left, #cc99ff 35%, #0066ff 100%);
+}
+.formBg1{
+    background-color: white;
+    padding: 8%;
+    border-radius: 15px;
+}
+.sbg{
+    background: linear-gradient(to top right, #6699ff 28%, #00ffff 100%);
+}
+.sbg1{
+     background: linear-gradient(to top right, #00cc00 31%, #ccff66 100%);
+}
+.stext{
+    color: #000066;
+}
+.stext2{
+    color: #0066ff ;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- navbar and image -->
+    <header class="bg" >
+        <!-- navbar -->
+        <br>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Deposit and Withdraw</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Back to Home</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <br> 
+        <h1 class="text1 dark">Deposit and Withdraw Section</h1>
+        <br>
+        <!-- image -->
+        <div >
+            <img class="image4" src="images/dw2.jpg" alt="online banking">
+        </div>
+    </header>
+    <br><br>
+    <!-- Deposit Withdraw and Balance Show display -->
+    <section class="sbg">
+        <br> <br>
+        <h1 class="text1 stext"> Deposit Withdraw and Balance Show </h1> <br>
+        <div class="container">
+            <br><br>
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                    <!-- deposit -->
+                    <div class="col-lg-4 col-12 col-md-12">
+                        <div class="p-3 border bg-light">
+                            <h1 class="text1 stext"> Deposit </h1> <br>
+                            <h1 class="text1 stext2"> <span id="ddisplay" >00</span> Taka </h1>
+                        </div>
+                    </div>
+                    <!-- withdraw -->
+                    <div class="col-lg-4 col-12 col-md-12">
+                        <div class="p-3 border bg-light">
+                            <h1 class="text1 stext"> Withdraw </h1> <br>
+                            <h1 class="text1 stext2"> <span id="wDisplay">00</span> Taka </h1>
+                        </div>
+                    </div>
+                    <!-- balance -->
+                    <div class="col-lg-4 col-12 col-md-12">
+                    <div class="p-3 border bg-light">
+                        <h1 class="text1 stext"> Total Balance </h1> <br>
+                        <h1 class="text1 stext2"> <span id="tbalance">500</span> Taka </h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </section>
+    <br><br> <br>
+    <!-- deposit and withdraw input section  -->
+    <section class="sbg1">
+        <br> <br>
+        <h1 class="text1 stext"> Deposit and Withdraw Input  </h1> <br>
+        <div class="container overflow-hidden">
+            <div class="row gy-5">
+                <!-- deposit -->
+                <div class="col-lg-6 col-12 col-md-12">
+                <div class="p-3 border bg-light">
+                    <h1 class="text1 stext">Deposit Here</h1> <br>
+                    <div class="text1">
+                        <input id="dinput" type="text" placeholder="Enter deposit amount"> <br> <br>
+                        <button id="dipoButton" type="submit" class="btn btn-primary">Deposit</button> 
+                    </div>
+                    <br>
+                </div>
+                </div>
+                <!-- withdraw -->
+                <div class="col-lg-6 col-12 col-md-12">
+                <div class="p-3 border bg-light">
+                    <h1 class="text1 stext">Withdraw here</h1> <br>
+                    <div class="text1">
+                        <input id="winInput" type="text" placeholder="Enter withdraw amount"> <br> <br>
+                        <button id="withButton" type="submit" class="btn btn-primary">Withdraw</button>
+                    </div>
+                    <br>
+                </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </section>
+    <br><br>
+    <!-- footer section  -->
+    <footer class="d-flex dark bg justify-content-center align-items-center p-3">
+      <div>
+          <h1 class="clr"> ARS Online Bank </h1> <br>
+          <h4> Your money is safe here </h4>
+            <br>
+          <p class="clr"> <big> Developed By </big>  &copy; <b> Abdur Rashid Sawom</b></p> 
+      </div> 
+      <br> <br>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/second.js"></script>
+</body>
+</html>
