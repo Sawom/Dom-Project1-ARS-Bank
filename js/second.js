@@ -44,7 +44,7 @@ document.getElementById('withButton').addEventListener('click',function(){
         const afterWithdrawBalanceText = afterWithdrawBalance.innerText;
         const afterWithdrawBalanceAmount = parseFloat(afterWithdrawBalanceText);
         // condition avoid negative total balance and withdraw
-        if(afterWithdrawBalanceAmount > newWithInputAmount && oldWithDisplayAmount < afterWithdrawBalanceAmount ){
+        if(afterWithdrawBalanceAmount > newWithInputAmount && oldWithDisplayAmount <= afterWithdrawBalanceAmount ){
             // update withdraw
             const updateWithdraw = newWithInputAmount + oldWithDisplayAmount;
             oldWithDisplay.innerText = updateWithdraw;
